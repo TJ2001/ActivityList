@@ -1,27 +1,19 @@
+ul {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
 #show-todo {
   margin-top: 30px;
   font-size: 20px;
 }
 
-.places li {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.places li:hover {
-  text-decoration: underline;
-}
-
-.col-md-6 {
-  float:left;
-}
-
-#new-landmarks {
-  margin-bottom: 1vh;
+body{
+  background: hotpink;
 }
 
 #show-todo button {
-  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 10px;
 }
 
