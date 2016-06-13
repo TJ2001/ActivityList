@@ -14,13 +14,13 @@ $(function(){
 
     var newActivities = new List(inputactivity)
 
-    $("#show-todo").append("<li>" + inputactivity + "</li> <button type='button' class='btn-sm btn-danger clearList' name='button'>Clear</button>");
+    $("#show-todo").append("<button type='button' class='btn-sm btn-danger clearList' name='button'>Done</button><li>" + inputactivity + "</li> ");
 
     $("input#activity").val("");
 
     $(".clearList").click(function(){
-      alert("Button works!");
-      $("#show-todo").empty();
+      $(this).next().remove();
+      $(this).remove();
     });
   });
 
