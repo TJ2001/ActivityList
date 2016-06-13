@@ -1,5 +1,6 @@
-#show-place {
-  display: none;
+#show-todo {
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 .places li {
@@ -17,4 +18,13 @@
 
 #new-landmarks {
   margin-bottom: 1vh;
+}
+
+#show-todo button {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#show-todo li {
+  display: inline-block;
 }
